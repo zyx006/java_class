@@ -1,4 +1,4 @@
-package Class5;
+package Class6;
 
 /**
  * @author : 张宇轩
@@ -54,7 +54,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Class5.Employee{" +
+        return "Employee{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", department='" + department + '\'' +
