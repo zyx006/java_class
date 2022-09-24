@@ -1,9 +1,5 @@
-package Class5.work;
+package lesson5.work;
 
-/**
- * @author : 张宇轩
- * @createTime : 2022/9/21 - 9:17
- */
 public class Rectangle {
     private Double length;
     private Double width;

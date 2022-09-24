@@ -1,4 +1,4 @@
-package Class5.work;
+package lesson5.work;
 
 /**
  * @author : 张宇轩
