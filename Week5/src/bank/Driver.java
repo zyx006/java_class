@@ -189,7 +189,7 @@ public class Driver {
                 System.out.print("请输入取款金额：");
                 double balance = scanner.nextDouble();
                 Double accountBalance = savingAccount.getBalance();
-                if (accountBalance > balance){
+                if (accountBalance >= balance){
                     savingAccount.setBalance(accountBalance - balance);
                     System.out.println("成功取款 " + balance + " 元");
                 } else System.out.println("取款失败，余额不足");
