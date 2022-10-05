@@ -1,7 +1,15 @@
+package exercise5;
+
 import java.util.Scanner;
 
-public class Exercise1 {
-    public static void main(String[] args) {
+public class ExpressionCalculate {
+    public static void calculate() {
+        System.out.println("add将两个操作数相加\n" +
+                "sub将两个操作数相减\n" +
+                "max求解两个数中的较大数\n" +
+                "min求解两个数中的较小数\n" +
+                "doubleMe将一个操作数翻倍（乘以2）");
+        System.out.println("请输入待运算的表达式：");
         String expression = new Scanner(System.in).nextLine();
 
         if (!checkFormat(expression)){
@@ -10,7 +18,7 @@ public class Exercise1 {
         }
 
         String[] opts = expression.split(",");
-        double res = 0;
+        double res;
         if(opts.length == 2){
             res = calcSingletonExpression(expression);
         } else {
