@@ -3,10 +3,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @author : 张宇轩
- * @createTime : 2022/10/20 - 8:28
- */
 public class Exercise2 {
     public static void main(String[] args) {
         String htmlStr = "<html><head><title>欢迎访问武汉纺织大学主页</title></head>\n" +
